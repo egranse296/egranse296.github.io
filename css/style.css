@@ -1,0 +1,103 @@
+body {
+	background-color: #ffffff;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2em;
+	color: hsl(0, 0%, 0%);
+	font-size: medium;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-decoration: none;
+}
+
+p {
+	line-height: 25px;
+}
+
+#sidebar {
+	float: right;
+	width: 25%;
+	border-left: 1px solid #000;
+	margin-left: 1em;
+	padding-left: 1em;
+	text-align: right;
+	
+}
+
+header {
+	background-color: rgb(255, 255, 255);
+	padding: 10px;
+	text-align: left;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: x-large;
+	color: rgb(0, 0, 0);
+}
+
+footer {
+	background-color: rgb(255, 215, 115);
+	text-align: center;
+	font-size: 80%;
+	margin: 5px;
+	padding: 10px;
+	clear: both;
+}
+
+a {
+	color: rgb(0, 0, 0);
+
+}
+
+nav ul {
+	padding: 5px;
+	list-style: none;
+	text-align: right;
+	line-height: 25px;
+	background-color: rgb(255, 215, 115);
+}
+
+nav ul li {
+	display: inline-block;
+	position: relative;
+
+}
+
+#complete>ul {
+	background-color: #ffffff;
+	text-align: center;
+	line-height: 25px;
+	list-style: none;
+}
+
+nav ul li a {
+
+	color: #000000;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+	text-decoration: none;
+	padding: 15px;
+	overflow: hidden;
+	text-align: center;
+	display: block;
+	font-size: medium;
+}
+
+/* Image alignment styles */
+.rightImage {
+	float: right;
+	margin-left: 1em;
+	margin-top: -1em;
+	margin-bottom: 0.5em;
+}
+
+.centerImage {
+	margin: auto;
+	display: block;
+}
+
+/* End image alignment styles */
+
+/* Keep the next section from overlapping the image. https://www.w3schools.com/howto/howto_css_clearfix.asp */
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
